@@ -1,0 +1,239 @@
+body {
+  width: 100%;
+  max-width: 992px;
+  margin-right: auto; 
+	margin-left: auto; 
+  background: #ffffff;
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1.7;
+}
+.header {
+  background: rgb(255, 255, 255);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.header__logo {
+  font-size: 16px;
+  font-style: normal;
+  color: black;
+  margin-left: 60px;
+}
+.nav {
+  padding-right: 60px;
+  flex: 2 1 auto;
+  text-align: right;
+}
+.nav__link {
+  display: inline;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 1.5rem;
+}
+.nav__link a {
+  text-decoration: none;
+  color: black; 
+}
+.nav__link a:hover {
+  text-decoration: overline;
+  cursor: default;
+  color: #0065FC;
+}
+h2 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 900;
+  font-style: none;
+  color: black;
+  margin: 20px 60px -30px 60px;
+  line-height: 50px;
+}
+
+p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 0;
+  font-style: none;
+  color: black;
+  margin: 20px 60px -30px 60px;
+  }
+
+.search-bar {
+    position: absolute;
+    top: 269px;
+    left: 134px;
+    border: 2px solid #f2f2f2;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 37.5px;
+    width: 10%;
+    padding: 2px 23px 2px 10px;
+    margin-left: -12px;
+    background-color: white; 
+}
+
+::placeholder {
+    color: black;
+    font-weight: 600;
+  }
+
+#search-icon {
+    background: #f2f2f2;
+    padding: 5.5px 10px 5.5px 0px;
+    margin-left: 60px;
+    --fa-border-color: #f2f2f2;
+    --fa-border-width: 16.5px;
+    --fa-border-radius: 10px 0 0 10px;
+    }
+
+.search-btn {
+   position: absolute; 
+   top: 269px;
+   background: #0065FC;
+   border: 11px solid #0065FC;
+   border-radius: 0 10px 10px 0;
+   font-family: "Raleway", sans-serif;
+   font-size: 15px;
+   font-weight: 0;
+   font-style: normal;
+   letter-spacing: .4px;
+   color: #ffffff;
+   padding: 2px 2px 2px 5px;
+   margin-left: 200px;
+}  
+.filter-div {
+  width: 50px;
+  position: relative;
+}
+.filters {
+  line-height: 20px;
+  font-size: 15px;
+}
+.filters-btn {
+   background: white;
+   border: 2px solid #DEEBFF;
+   border-radius: 20px;
+   font-family: "Raleway", sans-serif;
+   font-size: 15px;
+   font-weight: 600;
+   height: 42px;
+   width: 175px;
+   letter-spacing: .4px;
+   padding: 2px 10px 2px 40px;
+   font-style: normal;
+   margin-left: 20px;
+}
+.filters-btn:hover {
+   background-color: #DEEBFF;
+}
+.dot {
+/*   position:absolute; */
+/*   top: 390px; */
+  height: 40px;
+  width: 40px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 151px;
+}
+.lowcost-btn {
+  width: 130px;
+  margin-left: 150px;
+}
+.heart-btn {
+  width: 130px;
+}
+.money-icon {
+  position: absolute;
+  color: #0065FC;
+  top: 20px;
+  margin-left: 10px;
+}
+.child-icon {
+  position: absolute;
+  color: #0065FC;
+  top: 20px;
+  margin-left: 12px;
+}
+.child-dot {
+  margin-left: 21px;
+}
+.heart-icon {
+/*   position: absolute; */
+  background: #DEEBFF;
+  color: #0065FC;
+/*   top: 20px; */
+  margin-left: 10px;
+}
+.heart-dot {
+  margin-left: 21px;
+}
+.dog-icon {
+/*   position: absolute; */
+  color: #0065FC;
+  top: 20px;
+  margin-left: 10px;
+}
+.dog-dot {
+  margin-left: 21px;
+}
+.info-text {
+  margin-left: 95px;
+}
+.info-icon {
+  position: absolute;
+  top: 9.5px;
+  color: #0065FC;
+  margin-left: 7.5px;
+}
+.info-dot {
+  position: absolute;
+  top: 501px;
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 65px;
+}
+.flex-container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-1, .row-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-item {
+/*   display: flex;  */
+/*   flex-wrap: wrap; */
+/*   margin: 60px; */
+  background: #f2f2f2;
+/*   border-radius: 20px; */
+/*   padding: 150px 10px 150px 10px; */
+/*   align-content: space-around; */
+/*   justify-content: center; */
+}
+.flex-item div {
+  flex: 0 0 100px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: left;
+  background: white;
+  border-radius: 20px;
+  min-height: 175px;
+  min-width: 225px;
+  box-shadow: 0 0 10px #cacaca;
+}

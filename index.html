@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6dba53c399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Booki</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__logo">
+             <img src="/images/logo/Booki.png"  alt="Booki Logo" width="150px" height="60px">
+        </h1>
+        <nav class="nav">
+            <ul>
+                <li class="nav__link"> <a href="/accommodations.html">Accommodations</a> </li> 
+                <li class="nav__link"> <a href="/activities.html">Activities</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+      <h2>Find a place for your dream vacation</h2>
+      <p>Downtown or in the nature</p>
+    </section>
+  <br>
+  <br>
+ <form>
+    <div id="search-container">
+    <i id="search-icon" class="fa-solid fa-location-dot fa-xs fa-border"></i>
+    <input class="search-bar" placeholder="Marseille, France" type="text"></input>
+    <button class="search-btn">Search</button>
+    </div>  
+  </form>
+  <br>
+  <h2 class="filters">Filters</h2>
+ <div class="filters-container">
+     <div class="filter-div">
+        <span class="dot"><i class="money-icon fa-solid fa-money-bill-wave fa-2xs"></i></span><button class="filters-btn lowcost-btn" onclick="filterSelection('lowcost')">Low Cost</button>
+  </div>
+  <div class="filter-div">
+    <span class="dot child-dot"><i class="child-icon fa-solid fa-child-reaching fa-2xs"></i></span><button class="filters-btn family-friendly-btn" onclick="filterSelection('famili-friendly')">Family-friendly</button>
+  </div>
+  <div class="filter-div">
+     <span class="dot heart-dot"><i class="heart-icon fa-solid fa-heart fa-2xs"></i></span><button class="filters-btn heart-btn" onclick="filterSelection('romantic')"> Romantic</button>
+  </div>
+  <div class="filter-div">
+    <span class="dot dog-dot"><i class="dog-icon fa-solid fa-dog fa-2xs"></i></span><button class="filters-btn" onclick="filterSelection('petsallowed')">Pets Allowed</button>
+     </div>
+  </div>
+  <br>
+  <span class="info-dot"><i class="info-icon fa-solid fa-info fa-2xs"></i></span>
+  <p class="info-text">More than 500 accommodations are available in this city</p>
+   <main class="flex-container"> <!-- parent container which is the display:flex--> 
+     <div class="row-1">
+        <div class="flex-item flex-item-top-left"><img src="https://www.fillmurray.com/240/260" alt=""></div>
+        <div class="flex-item flex-item-top-middle"><img src="https://www.fillmurray.com/240/260" alt=""></div>
+        <div class="flex-item flex-item-top-right"><img src="https://www.fillmurray.com/240/260" alt=""></div>
+      </div>
+      <div class="row-2">
+        <div class="flex-item flex-item-bottom-left"><img src="https://www.fillmurray.com/240/260" alt=""></div>
+        <div class="flex-item flex-item-bottom-middle"><img src="https://www.fillmurray.com/240/260" alt=""></div>
+        <div class="flex-item flex-item-bottom-right"><img src="https://www.fillmurray.com/240/260" alt=""></div>
+      </div>
+     <div>More Accomadations</div>
+    </main>
+      </div>   
+    </main>
+    
+</body>
+</html>
+
