@@ -114,9 +114,9 @@ p {
   max-width: 900px;
  
 } 
-/* .filter-div {
+.filter-div {
   width: 50px;
-  position: relative; */
+  position: relative; 
 }
 .filters {
   line-height: 20px;
@@ -156,11 +156,15 @@ p {
 .heart-btn {
   width: 130px;
 }
+
 .money-icon {
   position: absolute;
   color: #0065FC;
   top: 20px;
-  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  /* margin-left: 10px; */
+
 }
 .child-icon {
   position: absolute;
@@ -226,7 +230,7 @@ p {
   display: flex;
   justify-content: space-around;
 }
-.flex-item {
+/* .flex-item {
 /*   display: flex;  */
 /*  flex-wrap: wrap; */
 /*   margin: 60px; */
@@ -235,7 +239,7 @@ p {
 /*   padding: 150px 10px 150px 10px; */
 /*   align-content: space-around; */
 /*   justify-content: center; */
-}
+
 .flex-item div {
   flex: 0 0 100px;
   padding: 100px;
@@ -254,7 +258,4 @@ p {
   height: 150px;
   border-radius: 15px 15px 0 0;
   font-size: 5px;
-}
-.flex-item__info {
-  
 }
