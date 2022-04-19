@@ -1,57 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <title>Booki</title>
 </head>
 <body>
-  <header class="header">
-    <h1 class="header__logo">
-      <img src="/images/logo/Booki.png" alt="Booki Logo" width="120px" height="60px">
-    </h1>
-    <nav class="header__nav">
-      <ul>
-        <li class="nav__link"><a href="/accommodations.html">Accommodations</a></li>
-        <li class="nav__link"><a href="/activities.html">Activities</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="slogan__container">
-    <h2>Find a place for your dream vacation</h2>
-    <p>Downtown or in the nature</p>
-  </div>
-  <div class="searchbar__container">
-    <img id="searchbar__icon" src="/images/icons/location-dot-solid.svg">
-    <input class="searchbar__input" placeholder="Marseille, France" type="text"></input>
-    <button class="searchbar__btn">Search</button>
-  </div>
-  <div class="filters__container">
-    <h2 id="filters__title">Filters</h2>
-    <div class="filters__btn"><img id="filters__icon" src="/images/icons/money-bill-wave-solid.svg">Low Cost</div>
-    <div class="filters__btn"><img id="filters__icon" src="/images/icons/child-reaching-solid.svg">Family-friendly</div>
-    <div class="filters__btn"><img id="filters__icon" src="/images/icons/heart-solid.svg">Romantic</div>
-    <div class="filters__btn"><img id="filters__icon" src="/images/icons/dog-solid.svg">Pets allowed</div>
-  </div>
-  <div class="info__container">
-    <img id="info__icon" src="/images/icons/info-solid.svg">
-    <p>More than 500 accommodations are available in this city</p>
-  </div>
-  <div class="accommodations__container">
-    <div class="row-1">
-      <div class="accommodations__items text-block"><img class="accommodations__img" src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></div>
-        <div class="">Night starting at</div>
-      <div class="accommodations__items"><img class="accommodations__img" src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></div>
-      <div class="accommodations__items"><img class="accommodations__img" src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></div>
+    <div class="container">
+        <div>
+            <header class="header">
+                <h1 class="header__logo">
+                    <img src="/images/logo/Booki.png" alt="Booki Logo" width="92px" height="45px">
+                </h1>
+                <nav class="header__nav">
+                    <ul>
+                        <li class="nav__link"><a href="/accommodations.html">Accommodations</a></li>
+                        <li class="nav__link"><a href="/activities.html">Activities</a></li>
+                    </ul>
+                </nav>
+          </header>
+        </div>
+        <div class="description">
+            <h2>Find a place for your dream vacation</h2>
+            <p>Downtown or in the nature</p>
+        </div>
+        <div class="searchbar">
+            <img id="searchbar__icon" src="/images/icons/location-dot-solid.svg">
+            <input class="searchbar__input" placeholder="Marseille, France" type="text"></input>
+            <button class="searchbar__btn">Search</button>
+        </div>
+        <div class="filters">
+            <h2 id="filters__title">Filters</h2>
+            <div class="filters__btn"><img id="filters__icon" src="/images/icons/money-bill-wave-solid.svg"></div>
+            <div class="filters__btn"><img id="filters__icon" src="/images/icons/child-reaching-solid.svg"></div>
+            <div class="filters__btn"><img id="filters__icon" src="/images/icons/heart-solid.svg"></div>
+            <div class="filters__btn"><img id="filters__icon" src="/images/icons/dog-solid.svg"></div>
+        </div>
+        <div class="info">
+            <img id="info__icon" src="/images/icons/info-solid.svg">
+            <p>More than 500 accommodations are available in this city</p>
+        </div>
+        <div class="accommodations-left">
+            <div class="row-top">
+                <div><img id="accommodations-left__img" src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></div>
+                <div><img id="accommodations-left__img" src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></div>
+                <div><img id="accommodations-left__img" src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></div>
+            </div>
+            <div class="row-bottom">
+                <div><img id="accommodations-left__img" src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></div>
+                <div><img id="accommodations-left__img" src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></div>
+                <div><img id="accommodations-left__img" src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></div>
+            </div>
+        </div>
+        <div class="accommodations-right">
+            <div class="column-right">
+                <div><img id="accommodations-right__img" src="/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"></div>
+                <div><img id="accommodations-right__img" src="/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"></div>
+                <div><img id="accommodations-right__img" src="/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"></div>
+            </div>
+        </div>
+        <div class="activities">
+            <div class="activities-one">
+                <div class="column-one">
+                    <div><img id="set-one" src="/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"></div>
+                </div>
+            </div>    
+            <div class="activities-two">  
+                <div class="column-two">
+                    <div><img id="set-two" src="/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"></div>
+                    <div><img id="set-two" src="/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"></div>
+                </div>
+            </div>
+            <div class="activities-three">
+                <div class="column-three">
+                    <div><img id="set-three" src="/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"></div>
+                </div>
+            </div>
+            <div class="activities-four">
+                <div class="column-four">
+                    <div><img id="set-four" src="/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"></div>
+                    <div><img id="set-four" src="/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <nav class="footer__nav">
+                <ul id="footer__list">
+                    <li id="footer__bold">About</li>
+                    <li>Site Map</li>
+                    <li>Genertal Terms and Conditions</li>
+                    <li>Data and Privacy</li>
+                </ul>
+                <ul id="footer__list">
+                    <li id="footer__bold">Our Accommodations</li>
+                    <li>Quality Assessment</li>
+                    <li>You have a hotel?</li>
+                </ul>
+                <ul id="footer__list">    
+                    <li id="footer__bold">Assistance</li>
+                    <li>Help Desk</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    <div class="row-2">
-      <div class="accommodations__items"><img class="accommodations__img" src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></div>
-      <div class="accommodations__items"><img class="accommodations__img" src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></div>
-      <div class="accommodations__items"><img class="accommodations__img" src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></div>
-    </div>
-    <div class="showmore__link">
-      <div>Show more</div>
-    </div>
-  </main> 
 </body>
-</html>
