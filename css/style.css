@@ -490,7 +490,7 @@ h3 {
         font-size: 14px;
         margin-top: -102px;  
     }
-    .img-text__left, .img-text__middle, #.mg-text__right {
+    .img-text__left, .img-text__middle, .img-text__right {
         font-size: 12px;
         margin-left: 20px;
         margin-top: -10px;
