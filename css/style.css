@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,11 +51,13 @@ header {
     align-items: flex-start;
     width: 992px;
     height: 125px;
+    margin-top: 10px;
 }
 .header__logo {
     font-size: 16px;
     font-style: normal;
     color: #000;
+    margin-top: 30px;
 }
 .header__nav {
     flex: 2 1 auto;
@@ -66,6 +68,7 @@ header {
     font-size: 16px;
     font-weight: 600;
     padding-left: 24px;
+    
 }
 .nav__link a {
     text-decoration: none;
@@ -73,7 +76,7 @@ header {
 }
 .nav__link a:hover {
     border-top: 2px solid #0065fc;
-    padding-top: 62px;
+    padding-top: 48px;
     cursor: default;
     color: #0065fc;
 }
@@ -83,17 +86,18 @@ header {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        align-content: center;
         order: 1;
-        width: 768px;
+        width: 100%;
     }
     .header__logo {
         font-size: 16px;
         font-style: normal;
         color: #000;
+        padding-left: 330px;
     }
     .header__nav {
         flex: 2 1 auto;
-        text-align: center;
     }
     .nav__link {
         display: inline-block;
@@ -103,18 +107,29 @@ header {
     .nav__link a {
         text-decoration: none;
         color: #000;
-        padding: 0;
+        border-bottom: 3px solid #f2f2f2;
+        padding-right: 60px;
+        padding-bottom: 10px;
+        padding-left: 60px;
     }
     .nav__link a:hover {
-        border-bottom: 2px solid #0065fc;
-        padding-top: 200px;
+        border-top: 0px;
+        border-bottom: 3px solid #0065fc;
+        padding-right: 60px;
         padding-bottom: 10px;
+        padding-left: 60px;
         cursor: default;
         color: #0065fc;
     }
+    .nav__first {
+        margin-left: 75px;
+    }
+    .nav__second {
+        margin-left: -30px;
+    }
 }
 .description {
-    width: 992px;
+    width: 100%;
 }
 h2 {
     font-size: 22px;
@@ -198,7 +213,7 @@ p {
         flex-wrap: wrap;
         justify-content: center;
         order: 3;
-        width: 768px;
+        width: 100%;
         margin-top: 30px;
     }
     #searchbar__icon {
@@ -215,6 +230,7 @@ p {
         border: 2px solid #f2f2f2;
         border-right: 2px solid #0065fc;
         padding: 2px 1px 2px 10px;
+        width: 260px;
         height: 43px;
     }
     ::placeholder {
@@ -332,7 +348,7 @@ p {
 .info {
     display: flex;
     flex-flow: row nowrap;
-    width: 992px;
+    width: 100%;
     margin-top: -20px;
     margin-bottom: 20px;
     margin-left: -5px;
@@ -356,12 +372,12 @@ p {
     .info {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         order: 5;
-        width: 768px;
+        width: 100%;
         margin-top: -8px;
-        margin-left: 25px;
+        margin-left: 40px;
     }
     .info__icon {
         width: 14px;
@@ -379,6 +395,7 @@ p {
     }
     .info__text {
         margin-top: 16px;
+        margin-left: -5px;
     }
 }    
 .accommodations-left {
@@ -407,8 +424,8 @@ p {
 }
 .accomodations-left__link {
     font-size: 17px;
-    padding-left: 20px;
     padding-bottom: 30px;
+    padding-left: 10px;
 }
 .accommodations-left__img {
     background-color: #f2f2f2;
@@ -724,6 +741,7 @@ h3 {
         height: 400px;
         font-size: 15px;
         padding-top: 20px;
+        padding-left: 130px;
     }
     .footer__list {
         list-style-type: none;
