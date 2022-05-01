@@ -14,13 +14,13 @@ body {
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Arial, sans-serif;
     font-size: 24px;
     color: #000;
     text-align: left;
 }
 
-.container {
+.main {
     /* border: 2px solid #000; */
     display: flex;
     flex-direction: row;
@@ -461,6 +461,13 @@ h3 {
 }
 .star-gray {
     color: #dbdbdb;
+}
+.links-mods {
+    text-decoration: none;
+    color: #000;
+}
+.links-mods:hover {
+    color:#0065fc;
 }
 @media only screen and (max-width : 768px) { 
     .accommodations-left {
