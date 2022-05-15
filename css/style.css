@@ -209,7 +209,7 @@ h2 {
     margin-right: 5px;
     margin-bottom: 10px;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width : 768px) {
     .filters {
         order: 4;
         margin-top: -30px;
@@ -378,7 +378,7 @@ h2 {
 .columns > * {
     flex-shrink: 1;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width : 768px) {
     .most-popular {
         order: 6;
     }
