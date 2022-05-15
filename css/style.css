@@ -119,24 +119,31 @@ h2 {
 @media only screen and (max-width : 768px) { 
     .intro {
         order: 2;
+        text-align: center;
+    }
+    p {
+        margin-left: -175px;
     }
     .details {
         order: 5;
-        margin-top: 70px;
+        text-align: center;
+        margin-top: 220px;
         margin-bottom: 25px;
-    }
-    .intro, .details, .filters {
-        padding-left: 192px;
+        margin-left: -70px;
     }
     .detail {
        display: block;
        margin-top: -15px;
-       margin-left: 30px;
+       margin-left: -85px;
     }
     .searchbar {
         order: 3;
         text-align: center;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .fa-location-dot {
+        padding: 17.5px;
     }
     .searchbar__input { 
         font-weight: 900;
@@ -205,29 +212,34 @@ h2 {
 @media (max-width: 768px) {
     .filters {
         order: 4;
-        margin-top: -50px;
-        margin-bottom: 100px;
+        margin-top: -30px;
+    }
+    .title {
+        text-align: center;
+        margin-left: -320px;
+    }
+    .filters-list {
+        position: relative;
     }
     .buttons {
-        position: relative;
-        margin-left: -30px;
+        position: absolute;
+        padding: 0 20px 0 0;
+    } 
+    .money-btn {
+        top: 45px;
+        left: 170px;
     }
-    .money-button {
-        top: 50px;
-        left: 30px;
+    .child-btn {
+        top: 105px;
+        left: 170px;
     }
-    .child-button {
-        top: 110px;
-        left: -90px;
+    .dog-btn {
+        top: 165px;
+        left: 170px;
     }
-    .heart-button {
-        top: 50px;
-        left: -90px;
-        
-    }
-    .dog-button {
-        top: 170px;
-        left: -375px
+    .heart-btn {
+        top: 45px;
+        left: 330px;
     }
 }
 .titles {
@@ -381,7 +393,7 @@ h2 {
     } 
     .cards {
         background-color: #fff;
-        width: 50%;
+        width: 45%;
     }
     .cards-right {
         width: 100%;
@@ -394,14 +406,14 @@ h2 {
     }
     .card-right {
         margin: auto;
-        width: 50%;
-        height: 140px;
+        width: 45%;
+        height: 130px;
     }
     .card-bottom {
         border: 0px;
         margin: auto;
-        width: 50%;
-        height: 175px;
+        width: 45%;
+        height: 185px;
     }
     .titles {
         margin-top: 20px;
@@ -413,16 +425,16 @@ h2 {
     }
     .images-right {
         width: 35%;
-        height: 139.5px;
+        height: 129.5px;
     }
     .images-radius {
         height: 120px;
     }
     .cards-bottom__header {
-        padding-left: 170px;
+        padding-left: 195px;
     }
     .cards-right__header {
-        padding-left: 190px;
+        padding-left: 205px;
         margin-top: 40px;
         margin-bottom: 20px;
     }
@@ -437,25 +449,25 @@ h2 {
        font-size: 14px;
    }
    .title__mod {
-    padding-top: 11px;
+        padding-top: 11px;
     }
     .title__mod-top {
-    padding-top: 10px;
-    padding-bottom: 22px;
-}
-.details__mod-top {
-    padding-top: 10px;
-    padding-bottom: 35px;
-}
-.details__mod-bottom {
-    padding-bottom: 60px;
-}
-.details__mod {
-    padding-top: 5px;
-    padding-bottom: 40px;
-}
-   .fa-chart-line {
-       padding-left: 200px;
+        padding-top: 10px;
+        padding-bottom: 22px;
+    }
+    .details__mod-top {
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+    .details__mod-bottom {
+        padding-bottom: 60px;
+    }
+    .details__mod {
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+    .fa-chart-line {
+        padding-left: 170px;
     }
     .fa-arrow-trend-up {
         font-size: 16px;
@@ -486,7 +498,6 @@ h2 {
         order: 9;
         background-color: #f2f2f2;
         margin-top: 25px;
-        order: 9;
     }
     .footer__nav {
         display: flex;
@@ -495,8 +506,7 @@ h2 {
         width: 100%;
         height: 400px;
         font-size: 15px;
-        padding-top: 20px;
-        padding-left: 150px;
+        padding-left: 165px;
     }
     .footer__list {
         list-style-type: none;
