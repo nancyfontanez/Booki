@@ -38,7 +38,7 @@ h2 {
 }
 @media only screen and (max-width : 768px) { 
     .container {
-        justify-content: space-evenly;
+        justify-content: center;
     }
     h2 {
         font-size: 22px;
@@ -210,15 +210,16 @@ h2 {
     margin-bottom: 10px;
 }
 @media only screen and (max-width : 768px) {
-    .filters {
+  .filters {
         order: 4;
         margin-top: -30px;
+        width: 400px;
     }
     .title {
         text-align: center;
         margin-left: -320px;
     }
-    .filters-list {
+     .filters-list {
         position: relative;
     }
     .buttons {
@@ -227,15 +228,15 @@ h2 {
     } 
     .money-btn {
         top: 45px;
-        left: 170px;
+        left: 180px;
     }
     .child-btn {
         top: 105px;
-        left: 170px;
+        left: 180px;
     }
     .dog-btn {
         top: 165px;
-        left: 170px;
+        left: 175px;
     }
     .heart-btn {
         top: 45px;
@@ -431,10 +432,10 @@ h2 {
         height: 120px;
     }
     .cards-bottom__header {
-        padding-left: 195px;
+        padding-left: 200px;
     }
     .cards-right__header {
-        padding-left: 205px;
+        padding-left: 210px;
         margin-top: 40px;
         margin-bottom: 20px;
     }
