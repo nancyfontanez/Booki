@@ -32,8 +32,8 @@ h2 {
     color: #000;
 }
 .nav__link a:hover {
-    border-top: 2px solid #0065fc;
-    padding-top: 48px;
+    border-top: 4px solid #0065fc;
+    padding-top: 91px;
     color: #0065fc;
 }
 @media only screen and (max-width : 768px) { 
@@ -51,7 +51,7 @@ h2 {
         width: 100%;
     }
     .header__logo {
-        padding-bottom: 10px;
+        padding: 0 0 10px 50px;
     }
     .header__nav {
         margin-top: 0px;
@@ -127,7 +127,7 @@ h2 {
     .details {
         order: 5;
         text-align: center;
-        margin-top: 220px;
+        margin-top: 20px;
         margin-bottom: 25px;
         margin-left: -70px;
     }
@@ -213,38 +213,29 @@ h2 {
   .filters {
         order: 4;
         margin-top: -30px;
-        width: 400px;
+        width: 100%;
     }
     .title {
         text-align: center;
         margin-left: -320px;
     }
-     .filters-list {
-        position: relative;
+    .filters-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        margin-top: 70px;
+        width: 100%;
     }
     .buttons {
-        position: absolute;
+        align-self: center;
         padding: 0 20px 0 0;
-    } 
-    .money-btn {
-        top: 45px;
-        left: 180px;
-    }
-    .child-btn {
-        top: 105px;
-        left: 180px;
-    }
-    .dog-btn {
-        top: 165px;
-        left: 175px;
-    }
-    .heart-btn {
-        top: 45px;
-        left: 360px;
-    }
+        margin: 0 0 0 -110px;
+        width: 300px;
+    }  
 }
 .titles {
-    margin-top: 40px;
+    margin-top: 29px;
     padding-left: 20px;
 }
 .show-more {
@@ -298,6 +289,10 @@ h2 {
 .card-bottom__six {
     height: 177px;
 }
+.images {
+    width: 200px;
+    height: 100px;
+}
 .images-radius {
     border-radius: 16px 16px 0 0;
 }
@@ -305,6 +300,28 @@ h2 {
     border-radius: 16px 0 0 16px;
     margin-right: 6px;
     float: left;
+    width: 110px; 
+    height: 119px;
+}
+.image-bottom-1, .image-bottom-4 {
+    width: 230px;
+    height: 310px;
+}
+.image-bottom-2 {
+    width: 230px;
+    height: 150px;
+}
+.image-bottom-3 {
+    width: 230px;
+    height: 80px;
+}
+.image-bottom-5 {
+    width: 230px;
+    height: 110px;
+}
+.image-bottom-6 {
+    width: 230px;
+    height: 130px;
 }
 .text {
     position: relative;
@@ -329,8 +346,8 @@ h2 {
     padding-top: 5px;
     padding-bottom: 32px;
 }
-.details__mod-bottom {
-    padding-bottom: 35px;
+.details__mod-top {
+    padding-bottom: 45px;
 }
 .fa-star,.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog, .fa-info {
     color: #0065fc;
@@ -340,19 +357,16 @@ h2 {
 }
 .cards-right__header {
     margin-top: 40px;
-    margin-bottom: -6px;
 }
 .cards-bottom__header {
     margin-top: 40px;
     margin-left: 15px;
 }
-.fa-arrow-trend-up, .fa-chart-line {
-    padding-left: 100px;
-}
 .fa-arrow-trend-up {
     font-size: 16px;
     position: relative;
-    left: 125px;
+    top: 0;
+    left: 115px;
     bottom: 27.5px;
 }
 .links {
@@ -361,6 +375,19 @@ h2 {
 }
 .links:hover {
     color:#0065fc;
+}
+@media only screen and (max-width : 920px) {
+    .images-right {
+        height: 150px;
+    }
+    .card-right {
+        height: auto; 
+    }
+}
+@media only screen and (max-width : 950px) {
+    .fa-arrow-trend-up {
+        display: none;
+    }
 }
 .columns-left, .columns-bottom {
     display: flex;
@@ -375,9 +402,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 16px;
-}
-.columns > * {
-    flex-shrink: 1;
 }
 @media only screen and (max-width : 768px) {
     .most-popular {
@@ -394,7 +418,7 @@ h2 {
     } 
     .cards {
         background-color: #fff;
-        width: 45%;
+        width: 90%;
     }
     .cards-right {
         width: 100%;
@@ -404,38 +428,50 @@ h2 {
     }
     .card {
         font-size: 14px;
+        height: 300px;
     }
     .card-right {
         margin: auto;
-        width: 45%;
-        height: 130px;
+        width: 90%;
+        height: 150px;
     }
     .card-bottom {
         border: 0px;
         margin: auto;
-        width: 45%;
-        height: 185px;
+        width: 90%;
+        height: 290px;
     }
     .titles {
         margin-top: 20px;
         margin-bottom: 20px;
-        padding-left: 5px;
+        padding-left: 0;
     }
     .images {
         width: 100%;
     }
+    #image-left-1, #image-left-2, #image-left-3,
+    #image-left-4, #image-left-5, #image-left-6 {
+        height: 220px;
+    }
     .images-right {
         width: 35%;
-        height: 129.5px;
+        height: 149.5px;
+    }
+    .images-bottom {
+        width: 100%;
     }
     .images-radius {
-        height: 120px;
+        height: 130px;
+    }
+    .image-bottom-1, .image-bottom-2, .image-bottom-3, 
+    .image-bottom-4, .image-bottom-5, .image-bottom-6 {
+        height: 220px;
     }
     .cards-bottom__header {
-        padding-left: 200px;
+        padding-left: 10px;
     }
     .cards-right__header {
-        padding-left: 210px;
+        padding-left: 20px;
         margin-top: 40px;
         margin-bottom: 20px;
     }
@@ -450,30 +486,10 @@ h2 {
        font-size: 14px;
    }
    .title__mod {
-        padding-top: 11px;
-    }
-    .title__mod-top {
-        padding-top: 10px;
-        padding-bottom: 22px;
+        padding: 15px 0 30px 0
     }
     .details__mod-top {
-        padding-top: 10px;
         padding-bottom: 35px;
-    }
-    .details__mod-bottom {
-        padding-bottom: 60px;
-    }
-    .details__mod {
-        padding-top: 5px;
-        padding-bottom: 40px;
-    }
-    .fa-chart-line {
-        padding-left: 170px;
-    }
-    .fa-arrow-trend-up {
-        font-size: 16px;
-        top: -6px;
-        left: -118px;
     }
 }
 .footer {
@@ -507,7 +523,6 @@ h2 {
         width: 100%;
         height: 400px;
         font-size: 15px;
-        padding-left: 165px;
     }
     .footer__list {
         list-style-type: none;
