@@ -120,7 +120,7 @@ h2 {
     .intro {
         order: 2;
         text-align: left;
-        padding: 0 0 0 30px;
+        padding: 0 0 0 32px;
     }
     .details {
         order: 5;
