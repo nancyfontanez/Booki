@@ -119,10 +119,8 @@ h2 {
 @media only screen and (max-width : 768px) { 
     .intro {
         order: 2;
-        text-align: center;
-    }
-    p {
-        margin-left: -175px;
+        text-align: left;
+        padding: 0 0 0 25px;
     }
     .details {
         order: 5;
@@ -210,7 +208,7 @@ h2 {
     margin-bottom: 10px;
 }
 @media only screen and (max-width : 768px) {
-  .filters {
+    .filters {
         order: 4;
         margin-top: -30px;
         width: 100%;
@@ -231,7 +229,7 @@ h2 {
         align-self: center;
         padding: 0 20px 0 0;
         margin: 0 0 0 -110px;
-        width: 300px;
+        width: 325px;
     }  
 }
 .titles {
