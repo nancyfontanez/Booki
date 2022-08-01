@@ -513,7 +513,7 @@ h2 {
         order: 9;
         background-color: #f2f2f2;
         margin-top: 25px;
-        width: 360px;
+        width: 100%;
     }
     .footer__nav {
         display: flex;
