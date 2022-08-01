@@ -51,7 +51,7 @@ h2 {
         width: 100%;
     }
     .header__logo {
-        padding: 0 0 10px 50px;
+        padding: 0 0 10px 40px;
     }
     .header__nav {
         margin-top: 0px;
@@ -70,12 +70,12 @@ h2 {
         text-decoration: none;
         color: #000;
         border-bottom: 3px solid #f2f2f2;
-        padding: 0 64px 10px 64px;
+        padding: 0 51px 10px 35px;
     }
     .nav__link a:hover {
         border-top: 0px;
         border-bottom: 3px solid #0065fc;
-        padding: 0 64px 10px 64px;
+        padding: 0 51px 10px 35px;
         color: #0065fc;
     }
 }
